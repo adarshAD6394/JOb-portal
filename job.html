@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job portal</title>
+    <link rel="stylesheet" href="job.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Job Portal</h1>
+        <form action="">
+            <div class="name">
+                <div id="name">
+                    <label for="First Name">First Name</label>
+                    <input id="First Name" type="text" required placeholder="First Name" >
+                </div>
+                <div id="name">
+                    <label for="Last Name">Last Name</label>
+                    <input id="Last Name" type="text" required placeholder="Last Name">
+                </div>
+                <div id="name">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" required placeholder="Email">
+                </div>
+                <div id="name">
+                    <label for="Job Role">Job Role</label>
+                    <select id="Job Role" >
+                        <option value="">job role</option>
+                        <option value="frontend">Front End</option>
+                        <option value="backend">Back End</option>
+                        <option value="ui ux">UI UX</option>
+                        <option value="fullstack">Full Stack</option>
+                        <option value="cloud">Cloud Developer </option>
+                    </select>
+                </div>
+                <div id="name" class="text_address">
+                    <label for="address">Address</label>
+                    <textarea id="address" type=" text" rows="5" cols="120" aria-flowto="" placeholder="Enter Your Address"></textarea>
+                </div>
+                <div id="name">
+                    <label for="city">City</label>
+                    <input id="city" type="text" required placeholder="City Name" >
+                </div>
+                <div id="name">
+                    <label for="pincode">Pincode</label>
+                    <input id="Pincode" type="number" required placeholder="Pincode" >
+                </div>
+                <div id="name" class="date">
+                    <label for="Start_Date">Start Date</label>
+                    <input id="Start_Date" type="date" required placeholder="Start Date" >
+                </div>
+                <div id="name" class="resume">
+                        <label for="Resume">Resume</label>
+                        <input id="Resume" type="file" required placeholder="Upload File" >
+                </div>
+            </div>
+            <div class="button_container">
+                <button class="button"type="submit">Apply Now</button>
+            </div>
+        </form>
+    </div>        
+</body>
+</html>
