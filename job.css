@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+}
+.container{
+    border-radius: 20px;
+    margin: 10px 200px;
+    background-color: antiquewhite;
+    box-shadow: red ( 5,0,0,1);    
+}
+h1{
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    max-width: 30%;
+}
+.name,input,select,textarea{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+ }
+ input,select,textarea{
+    border: 1px solid;
+}
+.textarea_address{
+    max-width: 95%;
+}
+#name, .resume{
+    font-size: 16px;
+    padding: 20px 50px;
+}
+.resume{
+    display: grid;
+    justify-content: flex-end;
+}
+.button_container{
+    padding: 0 20px 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: red;
+    color: whitesmoke;
+    transition: 0.3s ease-out;
+}
+button:hover{
+    border: 2px black;
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
